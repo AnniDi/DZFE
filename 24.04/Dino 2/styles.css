@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: borderbox;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Логотип, меню, кнопка */
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f9e2;
+}
+
+.logo {
+  width: 118px;
+  height: 119px;
+  flex-shrink: 0;
+  position: relative;
+  top: 17px;
+  left: 167px;
+}
+
+.menu {
+  display: flex;
+  width: 311px;
+  height: 30px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 62px;
+  left: 529px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: ABeeZee, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.menu__list {
+  width: 50px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: ABeeZee, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.29%;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #f39c12;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 52px;
+  left: 1157px;
+  display: grid; /* Используем Grid для кнопки */
+  place-items: center; /* Выравниваем содержимое по центру */
+  font-family: ABeeZee, sans-serif;
+}
+
+.button-content {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+.dino-container {
+  display: flex;
+  align-items: right;
+  background-color: #f4f9e2;
+  color: #22356f;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+
+.text-container h1 {
+  width: 610px;
+  height: 90px;
+  flex-shrink: 0;
+  color: #22356f;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 112.29%;
+  letter-spacing: -1.68px;
+  text-align: left;
+  margin: 0;
+}
+
+.text-container p {
+  width: 602px;
+  height: 277px;
+  flex-shrink: 0;
+  color: #22356f;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.3%;
+  text-align: left;
+  margin: 20px;
+}
+.dino {
+  max-width: 100%;
+  margin-left: auto;
+}
+.box-velo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  background-color: #62d0df;
+  font-family: "ABeeZee", sans-serif;
+  color: #fff;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto;
+}
+.image {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  margin-left: auto;
+}
+
+.content h2 {
+  color: #fff;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 76.83%;
+  letter-spacing: -0.216px;
+  width: 361px;
+  height: 51px;
+  flex-shrink: 0;
+  margin-left: 160px;
+}
+
+.p2 {
+  color: #fff;
+  text-align: justify;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 147.75%; /* 35.46px */
+  width: 586px;
+  height: 270px;
+  flex-shrink: 0;
+  margin-left: 171px;
+}
+.text-block {
+  width: 1440px;
+  height: 633px;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 739px;
+  height: 243.462px;
+  flex-shrink: 0;
+  color: #22356f;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 141.84%; /* 34.042px */
+  letter-spacing: 0.12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto; /* Центрирование по горизонтали */
+}
